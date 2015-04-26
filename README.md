@@ -12,17 +12,19 @@ The Phaser.io state machine design makes for great extensibility in content. The
 
 ## Issues and Hurdles
 
-My initial attempts to get a typescript environment setup were not successful, after some time I opted to instead write this is raw javascript. The bonuses to using typescript would've been better object inheritance but as the project stands it was innately inheritance light. If I was required to render the objects to the canvas manually I could see the benefits (ie RenderObj, ActiveObj parenting ButtonObj etc.)
+My initial attempts to get a typescript environment setup were not successful, after some time I opted to instead write this in raw javascript. The bonuses to using typescript would've been better object inheritance but as the project stands it was innately inheritance light. If I was required to render the objects to the canvas manually (ie RenderObj, ActiveObj parenting ButtonObj etc.) typescript would have been very useful.
 
 ## Improvements
 
-During development there were many improvements I considered but to keep within the 4 hour development time I had allotted myself I didn't get to implement these. They were:
+During development there were many improvements I considered but to keep within the 4 hour development time I had scheduled, I didn't get to implement these. They were:
 - music, specifically satisfaction blips when blocks are destroyed
 - higher resolution images
 - background image
 - detailed victory, defeat, and main menus
-- more mechanics (power ups/multiple hit blocks/environmental effects on the ball)
+- power ups
+- multiple hit blocks
+- environmental effects (ie gravity wells affecting the ball)
 
 ## Self Reflection
 
-I'd not personally used typescript before but after looking into it, there was a lot of promise. I did, however, find the issue of support. The given engines (Kiwi.js, Phaser.io) noted that TypeScript useage was possible but there was little to no discusison about its useage. Dart ran into similar issues on my machine (I'm thinking it might be time to do a clean reinstall)
+I'd not personally used typescript before but after looking into it, there was a lot of promise. I did, however, find the issue of support. The given engines (Kiwi.js, Phaser.io) noted that TypeScript integration was officially supported but there was little to no discussion about its usage. Dart ran into similar issues on my machine (I'm thinking it might be time to do a clean reinstall)
